@@ -43,10 +43,57 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
+.container {
+	box-sizing: border-box;
+	width: 1200px;
+}
 /* GLOBAL */
 
 /* HEADER */
 /* Nav */
+.container-navigation {
+	box-sizing: border-box;
+	width: 1200px;
+	margin: 0px 200px 0px 200px;
+	padding: 24px 0px 25px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.container-web-with-items {
+	box-sizing: border-box;
+	width: 499px;
+	margin: 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+.container-web {
+	box-sizing: border-box;
+	width: 155px;
+	padding: 0px 0px;
+}
+.container-itmes {
+	box-sizing: border-box;
+	width: 261px;
+	margin: 0px 0px;
+	padding: 7.5px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction: row;
+}
+.container-contact {
+	box-sizing: border-box;
+	width: 295px;
+	margin: 0px 0px;
+	padding: 7.5px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction: row;
+}
 .navigation-logo {
 	font-family: var(--logo-font);
 	text-decoration: none;
