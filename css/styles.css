@@ -131,12 +131,12 @@ body {
 .section-team-background {
 	background-color: var(--filters-background-color);
 }
-.section-team-container {
+/* .section-team-container {
 	box-sizing: border-box;
 	border: 1px solid #eeeeee;
 	width: 270px;
 	height: 368px;
-}
+} */
 .section-team-tittle {
 	font-size: 16px;
 	line-height: 1.18;
@@ -181,18 +181,18 @@ body {
 	color: var(--images-font-color);
 	letter-spacing: 0.03em;
 }
-.images-container {
+/* .images-container {
 	box-sizing: border-box;
 	border: 1px solid #eeeeee;
 	width: 370px;
 	height: 404px;
-}
-.images-text-container {
+} */
+/* .images-text-container {
 	box-sizing: border-box;
 	display: inline;
 	width: 322px;
 	height: 70px;
-}
+} */
 /* Content images for portfolio.html */
 /* MAIN */
 
