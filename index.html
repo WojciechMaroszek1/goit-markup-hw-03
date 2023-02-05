@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="witdh=device-width" />
@@ -14,64 +14,78 @@
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a class="navigation-logo" href="./index.html">
-					<span>Web</span>
-					<span class="navigation-logo-studio">Studio</span>
-				</a>
-				<ul class="list-design">
-					<li><a class="navigation-link text-color-pointer current" href="./index.html">Agencja</a></li>
-					<li><a class="navigation-link text-color-pointer" href="./portfolio.html">Portfolio</a></li>
-					<li><a class="navigation-link text-color-pointer" href="./kontakt.html">Kontakty</a></li>
+		<header class="nav-line">
+			<div class="container container-nav">
+				<nav class="header-nav">
+					<a class="nav-logo" href="./index.html">
+						<span>Web</span>
+						<span class="nav-logo-studio">Studio</span>
+					</a>
+					<ul class="nav-list">
+						<li><a class="nav-link text-color-pointer current" href="./index.html">Agencja</a></li>
+						<li><a class="nav-link text-color-pointer" href="./portfolio.html">Portfolio</a></li>
+						<li><a class="nav-link text-color-pointer" href="./kontakt.html">Kontakty</a></li>
+					</ul>
+				</nav>
+				<ul class="contact-list">
+					<li>
+						<a class="nav-link2 text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li><a class="nav-link2 text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
 				</ul>
-			</nav>
-			<ul class="list-design">
-				<li><a class="navigation-link2 text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a class="navigation-link2 text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
-			</ul>
+			</div>
 		</header>
 		<main>
 			<section class="hero-background">
-				<h1 class="hero-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-				<button class="hero-button" type="button">Zamów usługę</button>
+				<div class="hero-container">
+					<h1 class="hero-header hero-text-box">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+					<button class="hero-button" type="button">Zamów usługę</button>
+				</div>
 			</section>
 			<section>
 				<h2 class="visually-hidden">Lorem, ipsum dolor.</h2>
-				<ul class="list-design">
+				<ul class="list-design feat-container">
 					<li>
-						<h3 class="section-images-tittle">Lorem, ipsum.</h3>
-						<p class="section-images-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores officiis hic ut ea, impedit quam
-							tenetur debitis. Quos, voluptate.
-						</p>
+						<div class="feat-text-box">
+							<h3 class="section-images-tittle">Lorem, ipsum.</h3>
+							<p class="section-images-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</div>
 					</li>
 					<li>
-						<h3 class="section-images-tittle">Lorem, ipsum.</h3>
-						<p class="section-images-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores officiis hic ut ea, impedit quam
-							tenetur debitis. Quos, voluptate.
-						</p>
+						<div class="feat-text-box">
+							<h3 class="section-images-tittle">Lorem, ipsum.</h3>
+							<p class="section-images-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</div>
 					</li>
 					<li>
-						<h3 class="section-images-tittle">Lorem, ipsum.</h3>
-						<p class="section-images-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores officiis hic ut ea, impedit quam
-							tenetur debitis. Quos, voluptate.
-						</p>
+						<div class="feat-text-box">
+							<h3 class="section-images-tittle">Lorem, ipsum.</h3>
+							<p class="section-images-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</div>
 					</li>
 					<li>
-						<h3 class="section-images-tittle">Lorem, ipsum.</h3>
-						<p class="section-images-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores officiis hic ut ea, impedit quam
-							tenetur debitis. Quos, voluptate.
-						</p>
+						<div class="feat-text-box">
+							<h3 class="section-images-tittle">Lorem, ipsum.</h3>
+							<p class="section-images-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</div>
 					</li>
 				</ul>
 			</section>
 			<section>
-				<h2 class="global-design-head">Czym się zajmujemy</h2>
-				<ul class="list-design">
+				<h2 class="global-design-head sec-images-header">Czym się zajmujemy</h2>
+				<ul class="list-design sec-images-container">
 					<li>
 						<img src="images/box1.jpg" alt="Zdjęcie komputera" width="370" height="294" />
 					</li>
@@ -84,52 +98,62 @@
 				</ul>
 			</section>
 			<section class="section-team-background">
-				<h2 class="global-design-head">Nasz zespół</h2>
-				<ul class="list-design">
-					<li class="section-team-container">
+				<h2 class="global-design-head sec-images-header">Nasz zespół</h2>
+				<ul class="list-design team-card-box">
+					<li class="team-card">
 						<img src="images/img1.jpg" alt="Zdjęcie osoby 1" width="270" height="260" />
-						<h3 class="section-team-tittle">John Doe</h3>
-						<p class="section-team-text">Product Designer</p>
+						<div class="card-text-box">
+							<h3 class="section-team-tittle">John Doe</h3>
+							<p class="section-team-text">Product Designer</p>
+						</div>
 					</li>
-					<li class="section-team-container">
+					<li class="team-card">
 						<img src="images/img2.jpg" alt="Zdjęcie osoby 2" width="270" height="260" />
-						<h3 class="section-team-tittle">John Doe</h3>
-						<p class="section-team-text">Frontend Developer</p>
+						<div class="card-text-box">
+							<h3 class="section-team-tittle">John Doe</h3>
+							<p class="section-team-text">Frontend Developer</p>
+						</div>
 					</li>
-					<li class="section-team-container">
+					<li class="team-card">
 						<img src="images/img3.jpg" alt="Zdjęcie osoby 3" width="270" height="260" />
-						<h3 class="section-team-tittle">John Doe</h3>
-						<p class="section-team-text">Marketing</p>
+						<div class="card-text-box">
+							<h3 class="section-team-tittle">John Doe</h3>
+							<p class="section-team-text">Marketing</p>
+						</div>
 					</li>
-					<li class="section-team-container">
+					<li class="team-card">
 						<img src="images/img4.jpg" alt="Zdjęcie osoby 4" width="270" height="260" />
-						<h3 class="section-team-tittle">John Doe</h3>
-						<p class="section-team-text">UI Designer</p>
+						<div class="card-text-box">
+							<h3 class="section-team-tittle">John Doe</h3>
+							<p class="section-team-text">UI Designer</p>
+						</div>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<footer class="footer-bg">
-			<a class="footer-logo" href="./index.html">
-				<span>Web</span>
-				<span class="footer-logo-studio">Studio</span>
-			</a>
-			<address>
-				<ul class="list-design">
-					<li>
-						<a
-							class="footer-adress addres-color-pointer"
-							href="https://goo.gl/maps/CgjjjS2WBtp8LF2a7"
-							target="_blank"
-							rel="noopener nofollow"
-						>
-							m. Warszawa, Aleja Jerozolimska 21
-						</a>
-					</li>
-					<li><a class="footer-adress text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a class="footer-adress text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
-				</ul>
-			</address>
+			<div class="container container-footer">
+				<a class="footer-logo" href="./index.html">
+					<span>Web</span>
+					<span class="footer-logo-studio">Studio</span>
+				</a>
+				<address>
+					<ul class="list-design container-adress">
+						<li>
+							<a
+								class="footer-adress addres-color-pointer"
+								href="https://goo.gl/maps/CgjjjS2WBtp8LF2a7"
+								target="_blank"
+								rel="noopener nofollow"
+							>
+								m. Warszawa, Aleja Jerozolimska 21
+							</a>
+						</li>
+						<li><a class="footer-adress text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+						<li><a class="footer-adress text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
+					</ul>
+				</address>
+			</div>
 		</footer>
 	</body>
 </html>
